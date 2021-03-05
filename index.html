@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Lorem Grid</title>
+  <title>Latitude-Home</title>
 
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -60,11 +60,11 @@ p{
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"  style="background-color: #1d9fa3; color: black;">
                       <a class="dropdown-item" style="font-family: Raleway Bold; color: white;" href="Max_temp.html">Max Temperature</a>
-                      <a class="dropdown-item" style="font-family: Raleway Bold; color: white;" href="#">Humidity</a>
-                      <a class="dropdown-item" style="font-family: Raleway Bold; color: white;" href="#">Cloudiness</a>
-                      <a class="dropdown-item" style="font-family: Raleway Bold; color: white;" href="#">Wind Speed</a>
+                      <a class="dropdown-item" style="font-family: Raleway Bold; color: white;" href="humidity.html">Humidity</a>
+                      <a class="dropdown-item" style="font-family: Raleway Bold; color: white;" href="cloudiness.html">Cloudiness</a>
+                      <a class="dropdown-item" style="font-family: Raleway Bold; color: white;" href="wind_speed.html">Wind Speed</a>
                 <li class="nav-item  px-2">
-                  <a class="nav-link" href="#">Comparisons</a>
+                  <a class="nav-link" href="comparisons.html">Comparisons</a>
                 </li>
                 <li class="nav-item  px-2">
                   <a class="nav-link" href="#">Data</a>
@@ -82,7 +82,7 @@ p{
           <hr>
           <div class="row">
               <div class="col-md-6">
-               <a  href="Max_temp.html"><img src="Plots/Lat_Vs_MaxTemp.png" width="300" height="300" alt="LatVstmp.png" ></a>
+               <a  href="comparisons.html"><img src="Plots/Lat_Vs_MaxTemp.png" width="300" height="300" alt="LatVstmp.png" ></a>
               </div>
               <div class="col-md-6" style="padding-top: 0.5cm;">
                 <p>The purpose of the project was to analyze how weather changes as you get closer to the equator. To accomplish this 
@@ -115,7 +115,7 @@ p{
               <div class="col-md-6">
                 <div class="hover13">
                 <h6>Wind Speed</h6>
-                <a href='#'><figure><img src="Plots/Lat_Vs_Wind Speed.png" width="170" height="200" alt="LatVsWindSpeed.png"></figure></a>
+                <a href='wind_speed.html'><figure><img src="Plots/Lat_Vs_Wind Speed.png" width="170" height="200" alt="LatVsWindSpeed.png"></figure></a>
             </div>
         </div>
           </div>
@@ -124,13 +124,13 @@ p{
             <div class="col-md-6">
                 <div class="hover13">
                 <h6>Humidity</h6>
-                <a href='#'><figure><img src="Plots/Lat_Vs_Humidity.png" width="170" height="200" alt="LatVsHumidty.png"></figure></a>
+                <a href='humidity.html'><figure><img src="Plots/Lat_Vs_Humidity.png" width="170" height="200" alt="LatVsHumidty.png"></figure></a>
             </div>
         </div>
             <div class="col-md-6">
                 <div class="hover13">
                 <h6>Cloudiness</h6>
-                <a href='#'><figure><img src="Plots/Lat_Vs_Cloudiness.png" width="170" height="200" alt="LatVsCloudiness.png"></figure></a>
+                <a href='cloudiness.html'><figure><img src="Plots/Lat_Vs_Cloudiness.png" width="170" height="200" alt="LatVsCloudiness.png"></figure></a>
           </div>
         </div>
         </div>
@@ -138,7 +138,17 @@ p{
         </div>
       </div>
     </div>
-    
+
+    <footer class="text-muted">
+        <div class="container relative">
+            <br>
+            <p class="float-right">
+                <a href="#"> Back to top</a>
+                <br>
+            <p style="color:Black;"> End of the page</p>
+            </p>
+        </div>
+    </footer>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
