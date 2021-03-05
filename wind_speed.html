@@ -79,17 +79,17 @@ p{
     <div class="container relative">
         <div class="row justify-content-around">
             <div class="col-md-7" style="background-color: white;">
-              <h2>Maximum Temperature Vs Latitude</h2>
+              <h2>Wind Speed Vs Latitude</h2>
               <hr>
               <div class="row">
                   <div class="col-md-12">
-                   <a  href="Max_temp.html"><img src="Plots/Lat_Vs_MaxTemp.png" width="500" height="350" alt="LatVstmp.png" ></a>
+                   <a  href="wind_speed.html"><img src="Plots/Lat_Vs_Wind Speed.png" width="500" height="350" alt="LatVstmp.png" ></a>
                   </div>
                 <div class="col-md-12">
                 <p style="text-indent: 0cm;">
-                    As expected, the weather becomes significantly wammer as one approaches the equator(0 Deg. Latitude). More interestingly, however,
-                    is the fact that the southern hemispere tends to be warmer this time of the year than the northern hemisphere. This may be due to the tilt 
-                    of the earth at the time of the year this data was gathered.
+                    The wind speed lies below 20mph for most of the data points. The higher wind speeds are observed near the poles. Near the eqautor not
+                    even a single data point had high wind speeds during the time of the measure. It seems like a distribution without any trends and hence
+                    it is hard to understand the dependency by only using one variable. 
                 </p>
                 <br>
                 <br>
@@ -103,13 +103,13 @@ p{
                   <div class="col-md-6">
                     <div class="hover13">
                     <h6>Temperature</h6>
-                      <a href="Max_temp.html"><figure><img src="Plots/Lat_Vs_MaxTemp.png" width="170" height="200" alt="LatVstmp.png" style="border: 5px solid #555;"></figure></a>
+                      <a href="Max_temp.html"><figure><img src="Plots/Lat_Vs_MaxTemp.png" width="170" height="200" alt="LatVstmp.png"></figure></a>
                   </div>
                 </div>
                   <div class="col-md-6">
                     <div class="hover13">
                     <h6>Wind Speed</h6>
-                    <a href='wind_speed.html'><figure><img src="Plots/Lat_Vs_Wind Speed.png" width="170" height="200" alt="LatVsWindSpeed.png"></figure></a>
+                    <a href='wind_speed.html'><figure><img src="Plots/Lat_Vs_Wind Speed.png" width="170" height="200" alt="LatVsWindSpeed.png" style="border: 5px solid #555;"></figure></a>
                 </div>
             </div>
               </div>
@@ -124,7 +124,7 @@ p{
                 <div class="col-md-6">
                     <div class="hover13">
                     <h6>Cloudiness</h6>
-                    <a href='cloudiness.html'><figure><img src="Plots/Lat_Vs_Cloudiness.png" width="170" height="200" alt="LatVsCloudiness.png"></figure></a>
+                    <a href='cloudiness.html'><figure><img src="Plots/Lat_Vs_Cloudiness.png" width="170" height="200" alt="LatVsCloudiness.png" ></figure></a>
               </div>
             </div>
             </div>
@@ -132,22 +132,22 @@ p{
             </div>
           </div>
             <div class="col-md-12" style="background-color: white;">
-                <h2>Northern and Southern hemispere Vs Temperature</h2>
+                <h2>Northern and Southern hemispere Vs Wind Speed</h2>
                   <hr>
                   <div class="row">
                     <div class="col-md-6">
                         <h6 style="text-align: left;">Northern Hemisphere</h6>
-                        <img src="Plots/NH_Temp_LR.png" width="400" height="350" alt="NHVsTmp.png">
+                        <img src="Plots/NH_wind_speed_LR.png" width="400" height="350" alt="NHVsTmp.png">
                 </div>
                     <div class="col-md-6">
                         <h6 style="text-align: left;">Southern Hemisphere</h6>
-                        <img src="Plots/SH_Temp_LR.png" width="400" height="350" alt="SHVsTmp.png">
+                        <img src="Plots/SH_wind_speed_LR.png" width="400" height="350" alt="SHVsTmp.png">
                 </div>
             
             </div>
-            <p> The regression line is plotted between the temperature and Latitude by grouping the data points  
-                from the northern hemisphere and southern hemisphere. We could see that there is a high correlation.
-                At this time of the year southern hemisphere seems more warmer than northern hemisphere.
+            <p> The regression line in the southern hemisphere Vs wind speed plot shows a slight decrease. The wind speed is less near the equator and is high at 
+                the poles. The correlation between the variables is not strong and hence makes it hard for confirming the hypotheses. 
+                Also, the other variables need to be considered to analyse further.
             </p>
             <br>
             </div>
@@ -159,7 +159,7 @@ p{
         <p class="float-right">
             <a href="#"> Back to top</a>
             <br>
-        <p style="color:Black;"> End of Temperature Vs Latitude Analysis</p>
+        <p style="color:Black;"> End of Wind Speed Vs Latitude Analysis</p>
         </p>
     </div>
 </footer>
